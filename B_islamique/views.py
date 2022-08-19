@@ -14,7 +14,7 @@ from django.contrib import messages
 
 def accueil(request):
     #return HttpResponse("Hello world!")
-    return render(request,'accueil.html')
+    return render(request,'home.html')
 
 
 def multistepformexample(request):
