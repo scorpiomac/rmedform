@@ -10,6 +10,13 @@ from django.http import HttpResponse
 from django.contrib import messages
 
 
+
+
+def accueil(request):
+    #return HttpResponse("Hello world!")
+    return render(request,'accueil.html')
+
+
 def multistepformexample(request):
 
     return render(request,'multistepformexample.html')

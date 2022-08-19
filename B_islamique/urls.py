@@ -25,4 +25,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('add/',views.multistepformexample,name='add'),
     path('information/',include('fiche_RP.urls')),
+    path('/',views.accueil,name='accueil'),
 ]
