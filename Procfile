@@ -1,1 +1,1 @@
-web: gunicorn B_islamique.wsgi --log-file -
+web gunicorn B_islamique.wsgi:application --log-file -
