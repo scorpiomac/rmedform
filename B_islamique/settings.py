@@ -27,7 +27,7 @@ SECRET_KEY = '=e$fp3q!pbj4dlf_jhu*9mz4q&7=i#yj%wmi7gv972jh^i3ehz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://rmedtechform.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
